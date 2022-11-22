@@ -9,6 +9,7 @@ import ButtonEvent from './components/ButtonEvent';
 import StyleSheets from './components/StyleSheets';
 import InlineStyle from './components/InlineStyle';
 import ModuleStyle from './components/ModuleStyle';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <StyleSheets />
       <InlineStyle />
       <ModuleStyle />
+      <Login />
     </div>
   );
 }
