@@ -1,14 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Test from './components/Test';
-import ClassTest from './components/ClassTest';
+import ClassComponent from './components/ClassComponent';
+import FunctionComponent from './components/FunctionComponent';
+import Props from './components/Props';
+import State from './components/State';
+import PropsState from './components/PropsState';
+import ButtonEvent from './components/ButtonEvent';
+import StyleSheets from './components/StyleSheets';
+import InlineStyle from './components/InlineStyle';
+import ModuleStyle from './components/ModuleStyle';
 
 function App() {
   return (
     <div className="App">
-      
-      <Test />
-      <ClassTest name="rk" />
+      <FunctionComponent />
+      <ClassComponent />
+      <Props name="property" />
+      <State />
+      <PropsState name="from props state" />
+      <ButtonEvent />
+      <StyleSheets />
+      <InlineStyle />
+      <ModuleStyle />
     </div>
   );
 }
